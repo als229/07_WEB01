@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+
+	button{
+		width : 150px;
+		height : 40px;
+		font-weight : bold;
+		font-size : 18px;
+		border : none;
+		background : lightpink;
+		color : white;
+		border-radius : 8px;
+		
+		&:hover{
+			cursor : pointer;
+			background : pink;
+		}		
+	}
+
+</style>
+</head>
+<body>
+	<h1>ㅎㅇㅎㅇ 할로ㅎㅇㅎㅇ왈드ㅎㅇㅎㅇ</h1>
+	<hr>
+	
+	<button onclick = forwardRequestPage()>주  문  하  기</button>
+
+	<script>
+		function forwardRequestPage(){
+			location.href = 'http://127.0.0.1/bk/static/Request_Page.html';
+		}
+	</script>
+</body>
+</html>
