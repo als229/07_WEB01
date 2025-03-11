@@ -26,7 +26,18 @@
 	 -->
 	<a href="/bm/sc">써본듯</a>	
 	
+	<hr>
 	
+	<a href="include">포함포함 해야지</a>
+	<br>
+	<a href="forward">포워드 JSP로 이동</a>
+	
+	<hr>
+	
+	<a href="jstl">실과 바늘 배우러 가기</a>
+	
+	
+
 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 </body>
 </html>

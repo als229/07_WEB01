@@ -67,7 +67,7 @@ public class SignUpController extends HttpServlet {
 		RequestDispatcher view = request.getRequestDispatcher("/views/response_page.jsp");
 		
 		// 결국엔 RequestDispatcher도 서블릿을 통해 html 파일을 뱉기 때문에 request와 response를 넘겨준다.
-		// 포워딩해준다.
+		// 포워딩해준다.(앞으로 보내준다?)
 		// view // request, response
 		view.forward(request, response);
 		
