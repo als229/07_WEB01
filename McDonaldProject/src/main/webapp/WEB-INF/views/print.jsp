@@ -105,6 +105,8 @@
 	 	bestSeller가 null과 일치합니까? <br> 
 	 	${ bestSeller eq null} <br>
 	 	또는 ${ bestSeller == null } <br>
+	 	
+	 	<!-- empty는 안에 내용물 비교해서 실제 값이 있는지 없는지 확인해줌. -->
 	 	또는 ${ empty bestSeller } <br>
 	 	
 	 	list가 비어있지 않습니까?  <br>
